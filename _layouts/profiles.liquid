@@ -5,6 +5,45 @@ layout: page
   <article>
     {% if page.profiles %}
       
+      <!-- Faculty Section -->
+      {% if page.profiles.faculty and page.profiles.faculty.size > 0 %}
+        <div class="people-section">
+          <h2 class="section-title">Faculty</h2>
+          <div class="row">
+            {% for person in page.profiles.faculty %}
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                <div class="person-card text-center">
+                  {% if person.image %}
+                    {% assign person_image_path = person.image | prepend: 'assets/img/' %}
+                    {% assign person_image_class = 'img-fluid rounded' %}
+                    {% capture sizes %}150px{% endcapture %}
+                    <div class="person-image-container mb-2">
+                      {% if person.link and person.link != "#" %}
+                        <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-link">
+                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                        </a>
+                      {% else %}
+                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  <h5 class="person-name">
+                    {% if person.link and person.link != "#" %}
+                      <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-name-link">{{ person.name }}</a>
+                    {% else %}
+                      {{ person.name }}
+                    {% endif %}
+                  </h5>
+                  {% if person.more_info %}
+                    <p class="person-info text-muted small">{{ person.more_info }}</p>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+
       <!-- PhDs Section -->
       {% if page.profiles.phds and page.profiles.phds.size > 0 %}
         <div class="people-section">

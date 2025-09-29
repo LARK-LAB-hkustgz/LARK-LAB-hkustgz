@@ -1,12 +1,19 @@
 ---
 layout: profiles
 permalink: /
-title: <strong>LARK LAB</strong>
-description:  LAnguage Reasoning & Knowledge<br>Members of the lab
+title: Members
+description:  <strong>LARK LAB</strong> - <strong>LA</strong>nguage <strong>R</strong>easoning & <strong>K</strong>nowledge<br>Members of the lab
 nav: true
 nav_order: 1
 
 profiles:
+  # Faculty - 添加新的Faculty成员只需在下面添加新条目
+  faculty:
+    - name: "Faculty Member 1"
+      image: prof_pic.jpg  # 将图片放在 assets/img/ 文件夹中
+      more_info: "Professor"
+      link: "#"  # 个人主页链接，如果没有可以设置为 "#" 或删除此行
+
   # PhDs - 添加新的PhD学生只需在下面添加新条目
   phds:
     - name: "PhD Student 1"
