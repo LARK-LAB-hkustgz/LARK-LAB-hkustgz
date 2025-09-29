@@ -18,10 +18,22 @@ layout: page
                     {% assign person_image_class = 'img-fluid rounded' %}
                     {% capture sizes %}150px{% endcapture %}
                     <div class="person-image-container mb-2">
-                      {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                      {% if person.link and person.link != "#" %}
+                        <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-link">
+                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                        </a>
+                      {% else %}
+                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                      {% endif %}
                     </div>
                   {% endif %}
-                  <h5 class="person-name">{{ person.name }}</h5>
+                  <h5 class="person-name">
+                    {% if person.link and person.link != "#" %}
+                      <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-name-link">{{ person.name }}</a>
+                    {% else %}
+                      {{ person.name }}
+                    {% endif %}
+                  </h5>
                   {% if person.more_info %}
                     <p class="person-info text-muted small">{{ person.more_info }}</p>
                   {% endif %}
@@ -45,10 +57,22 @@ layout: page
                     {% assign person_image_class = 'img-fluid rounded' %}
                     {% capture sizes %}150px{% endcapture %}
                     <div class="person-image-container mb-2">
-                      {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                      {% if person.link and person.link != "#" %}
+                        <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-link">
+                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                        </a>
+                      {% else %}
+                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                      {% endif %}
                     </div>
                   {% endif %}
-                  <h5 class="person-name">{{ person.name }}</h5>
+                  <h5 class="person-name">
+                    {% if person.link and person.link != "#" %}
+                      <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-name-link">{{ person.name }}</a>
+                    {% else %}
+                      {{ person.name }}
+                    {% endif %}
+                  </h5>
                   {% if person.more_info %}
                     <p class="person-info text-muted small">{{ person.more_info }}</p>
                   {% endif %}
@@ -72,10 +96,22 @@ layout: page
                     {% assign person_image_class = 'img-fluid rounded' %}
                     {% capture sizes %}150px{% endcapture %}
                     <div class="person-image-container mb-2">
-                      {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                      {% if person.link and person.link != "#" %}
+                        <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-link">
+                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                        </a>
+                      {% else %}
+                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                      {% endif %}
                     </div>
                   {% endif %}
-                  <h5 class="person-name">{{ person.name }}</h5>
+                  <h5 class="person-name">
+                    {% if person.link and person.link != "#" %}
+                      <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-name-link">{{ person.name }}</a>
+                    {% else %}
+                      {{ person.name }}
+                    {% endif %}
+                  </h5>
                   {% if person.more_info %}
                     <p class="person-info text-muted small">{{ person.more_info }}</p>
                   {% endif %}
@@ -126,6 +162,25 @@ layout: page
 .person-info {
   font-size: 0.8rem;
   margin-bottom: 0;
+}
+
+.person-link {
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.person-link:hover {
+  transform: scale(1.05);
+}
+
+.person-name-link {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.person-name-link:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
 }
 
 /* Responsive grid for exactly 5 per row on large screens */
