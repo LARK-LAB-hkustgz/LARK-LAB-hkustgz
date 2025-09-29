@@ -59,6 +59,9 @@ profiles:
     - name: "MPhil Student 4"
       image: prof_pic.jpg
       more_info: "MPhil in Computer Science"
+    - name: "MPhil Student 5"
+      image: prof_pic.jpg
+      more_info: "MPhil in Computer Science"
   
   # Interns/RAs/Visitors - 添加新成员只需在下面添加新条目
   others:
