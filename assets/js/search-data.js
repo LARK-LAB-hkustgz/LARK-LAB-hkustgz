@@ -3,21 +3,21 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-strong-lark-lab-strong",
-    title: "<strong>LARK LAB</strong>",
+    id: "nav-members",
+    title: "Members",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-lt-strong-gt-lark-lab-lt-strong-gt",
-          title: "&lt;strong&gt;LARK LAB&lt;/strong&gt;",
-          description: "LAnguage Reasoning &amp; KnowledgeMembers of the lab",
+  },{id: "nav-members",
+          title: "Members",
+          description: "LARK LAB - LAnguage Reasoning &amp; KnowledgeMembers of the lab",
           section: "Navigation",
           handler: () => {
             window.location.href = "/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
