@@ -38,6 +38,9 @@ profiles:
     - name: "PhD Student 6"
       image: prof_pic.jpg
       more_info: "PhD in Computer Science"
+    - name: "PhD Student 7"
+      image: prof_pic.jpg
+      more_info: "PhD in Computer Science"
       # 没有link字段表示没有个人主页
   
   # MPhils - 添加新的MPhil学生只需在下面添加新条目  
