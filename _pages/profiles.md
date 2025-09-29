@@ -2,7 +2,8 @@
 layout: profiles
 permalink: /
 title: Members
-description:  <strong>LARK LAB</strong> - <strong>LA</strong>nguage <strong>R</strong>easoning & <strong>K</strong>nowledge<br>Members of the lab
+page_title: <strong>LA</strong>nguage <strong>R</strong>easoning & <strong>K</strong>nowledge Lab
+description: Members of the lab
 nav: true
 nav_order: 1
 
@@ -25,6 +26,16 @@ profiles:
       more_info: "PhD in Computer Science"
       link: "https://example.com/student2"  # 示例链接
     - name: "PhD Student 3"
+      image: prof_pic.jpg
+      more_info: "PhD in Computer Science"
+    - name: "PhD Student 4" 
+      image: prof_pic.jpg
+      more_info: "PhD in Computer Science"
+      link: "https://example.com/student4"  # 示例链接
+    - name: "PhD Student 5"
+      image: prof_pic.jpg
+      more_info: "PhD in Computer Science"
+    - name: "PhD Student 6"
       image: prof_pic.jpg
       more_info: "PhD in Computer Science"
       # 没有link字段表示没有个人主页
