@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-members",
           title: "Members",
-          description: "LARK LAB - LAnguage Reasoning &amp; KnowledgeMembers of the lab",
+          description: "Members of the lab",
           section: "Navigation",
           handler: () => {
             window.location.href = "/";
