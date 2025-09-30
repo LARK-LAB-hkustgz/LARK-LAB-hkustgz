@@ -10,7 +10,7 @@ layout: default
 
 <style>
 .post {
-  max-width: 1300px !important;
+  max-width: 1137px !important;
   width: 100% !important;
 }
 .post article {
@@ -18,11 +18,11 @@ layout: default
   width: 100% !important;
 }
 .container, .container-fluid {
-  max-width: 1300px !important;
+  max-width: 1137px !important;
 }
 </style>
 
-<div class="post" style="max-width: 1300px; margin: 0 auto;">
+<div class="post" style="max-width: 1137px; margin: 0 auto;">
   <header class="post-header">
     <h1 class="post-title">
       {% if page.page_title %}
@@ -43,7 +43,7 @@ layout: default
           <h2 class="section-title">Faculty</h2>
           <div class="row">
             {% for person in page.profiles.faculty %}
-              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-2">
                 <div class="person-card text-center">
                   {% if person.image %}
                     {% assign person_image_path = person.image | prepend: 'assets/img/' %}
@@ -82,7 +82,7 @@ layout: default
           <h2 class="section-title">PhDs</h2>
           <div class="row">
             {% for person in page.profiles.phds %}
-              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-2">
                 <div class="person-card text-center">
                   {% if person.image %}
                     {% assign person_image_path = person.image | prepend: 'assets/img/' %}
@@ -121,7 +121,7 @@ layout: default
           <h2 class="section-title">MPhils</h2>
           <div class="row">
             {% for person in page.profiles.mphils %}
-              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-2">
                 <div class="person-card text-center">
                   {% if person.image %}
                     {% assign person_image_path = person.image | prepend: 'assets/img/' %}
@@ -160,7 +160,7 @@ layout: default
           <h2 class="section-title">Interns/RAs/Visitors</h2>
           <div class="row">
             {% for person in page.profiles.others %}
-              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-2">
                 <div class="person-card text-center">
                   {% if person.image %}
                     {% assign person_image_path = person.image | prepend: 'assets/img/' %}
@@ -213,14 +213,14 @@ layout: default
 .person-image-container figure,
 .person-link img,
 .person-link figure {
-  width: 160px !important;
-  height: 160px !important;
+  width: 180px !important;
+  height: 180px !important;
   object-fit: cover !important;
 }
 
 .person-card .img-fluid {
-  width: 160px !important;
-  height: 160px !important;
+  width: 180px !important;
+  height: 180px !important;
   object-fit: cover !important;
 }
 
