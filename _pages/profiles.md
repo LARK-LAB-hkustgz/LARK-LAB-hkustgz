@@ -10,10 +10,10 @@ nav_order: 1
 profiles:
   # Faculty - 添加新的Faculty成员只需在下面添加新条目
   faculty:
-    - name: "Faculty Member 1"
-      image: prof_pic.jpg  # 将图片放在 assets/img/ 文件夹中
-      more_info: "Professor"
-      link: "#"  # 个人主页链接，如果没有可以设置为 "#" 或删除此行
+    - name: "Zhijiang Guo"
+      image: zhijiang.jpg  # 将图片放在 assets/img/ 文件夹中
+      more_info: "Assistant Professor"
+      link: "https://cartus.github.io/"  # 个人主页链接，如果没有可以设置为 "#" 或删除此行
 
   # PhDs - 添加新的PhD学生只需在下面添加新条目
   phds:
@@ -64,17 +64,17 @@ profiles:
       more_info: "MPhil in Computer Science"
   
   # Interns/RAs/Visitors - 添加新成员只需在下面添加新条目
-  others:
-    - name: "Research Assistant 1"
-      image: prof_pic.jpg
-      more_info: "Research Assistant"
-    - name: "Intern 1"
-      image: prof_pic.jpg
-      more_info: "Research Intern"
-      link: "https://example.com/intern1"
-    - name: "Visitor 1"
-      image: prof_pic.jpg
-      more_info: "Visiting Scholar"
+  # others:
+  #   - name: "Research Assistant 1"
+  #     image: prof_pic.jpg
+  #     more_info: "Research Assistant"
+  #   - name: "Intern 1"
+  #     image: prof_pic.jpg
+  #     more_info: "Research Intern"
+  #     link: "https://example.com/intern1"
+  #   - name: "Visitor 1"
+  #     image: prof_pic.jpg
+  #     more_info: "Visiting Scholar"
 
 # 添加人员说明：
 # 1. 在相应类别下添加新条目
