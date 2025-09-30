@@ -17,51 +17,56 @@ profiles:
 
   # PhDs - 添加新的PhD学生只需在下面添加新条目
   phds:
-    - name: "PhD Student 1"
-      image: prof_pic.jpg  # 将图片放在 assets/img/ 文件夹中
-      more_info: "PhD in Computer Science"
-      link: "#"  # 个人主页链接，如果没有可以设置为 "#" 或删除此行
-    - name: "PhD Student 2" 
-      image: prof_pic.jpg
-      more_info: "PhD in Computer Science"
-      link: "https://example.com/student2"  # 示例链接
-    - name: "PhD Student 3"
-      image: prof_pic.jpg
-      more_info: "PhD in Computer Science"
-    - name: "PhD Student 4" 
-      image: prof_pic.jpg
-      more_info: "PhD in Computer Science"
-      link: "https://example.com/student4"  # 示例链接
-    - name: "PhD Student 5"
-      image: prof_pic.jpg
-      more_info: "PhD in Computer Science"
-    - name: "PhD Student 6"
-      image: prof_pic.jpg
-      more_info: "PhD in Computer Science"
-    - name: "PhD Student 7"
-      image: prof_pic.jpg
-      more_info: "PhD in Computer Science"
-      # 没有link字段表示没有个人主页
+    - name: "Xinyu Zhou" 
+      image: xinyu.jpg
+      more_info: "PhD"
+      link: "https://blackzxy.github.io/"  # 示例链接
+    - name: "Zhiwei Li"
+      image: zhiwei.jpg  # 将图片放在 assets/img/ 文件夹中
+      more_info: "PhD"
+      link: "https://digbangbang.github.io/"  # 个人主页链接，如果没有可以设置为 "#" 或删除此行
+    - name: "Haochen Wang"
+      image: haochen.jpg
+      more_info: "PhD incoming"
+    - name: "Minrui Xu" 
+      image: minrui.jpg
+      more_info: "PhD incoming"
+      link: "https://rolandminrui.github.io/rolandminrui-homepage/"  # 示例链接
+    - name: "Mengyi Deng"
+      image: mengyi.jpg
+      more_info: "PhD, co-supervise with Prof. Wei Wang"
   
   # MPhils - 添加新的MPhil学生只需在下面添加新条目  
   mphils:
-    - name: "MPhil Student 1"
-      image: prof_pic.jpg
-      more_info: "MPhil in Computer Science"
+    - name: "Zilin Wang"
+      image: zilin.jpg
+      more_info: "MPhil"
       link: "#"
-    - name: "MPhil Student 2"
-      image: prof_pic.jpg
-      more_info: "MPhil in Computer Science"
-      link: "https://example.com/mphil2"
-    - name: "MPhil Student 3"
-      image: prof_pic.jpg
-      more_info: "MPhil in Computer Science"
-    - name: "MPhil Student 4"
-      image: prof_pic.jpg
-      more_info: "MPhil in Computer Science"
-    - name: "MPhil Student 5"
-      image: prof_pic.jpg
-      more_info: "MPhil in Computer Science"
+    - name: "Chao Chen"
+      image: chenchao.jpg
+      more_info: "MPhil"
+      link: "#"
+    - name: "Jiayu Yang"
+      image: jiayu.jpg
+      more_info: "MPhil, co-supervise with Prof. Yutao Yue"
+      link: "https://yjywdzh.github.io/"
+    - name: "Xiao Zhu"
+      image: zhuxiao.jpg
+      more_info: "MPhil, co-supervise with Prof. Yanlin Zhang"
+      link: "https://hexagonstar.github.io/"
+    - name: "Chenyu Yuan"
+      image: chenyu.jpg
+      more_info: "MPhil, co-supervise with Prof. Jiayi Huang"
+      link: "https://chenyuy001.github.io/"
+    - name: "Yingping Wang"
+      image: yingping.jpg
+      more_info: "MPhil, co-supervise with Prof. XX"
+      link: "#"
+    - name: "Baiyu Huang"
+      image: lark.jpg
+      more_info: "MPhil"
+      link: "#"
+      
   
   # Interns/RAs/Visitors - 添加新成员只需在下面添加新条目
   # others:
