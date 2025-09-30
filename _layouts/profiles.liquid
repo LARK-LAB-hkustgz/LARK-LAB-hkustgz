@@ -8,7 +8,7 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post">
+<div class="post" style="max-width: 1300px; margin: 0 auto;">
   <header class="post-header">
     <h1 class="post-title">
       {% if page.page_title %}
@@ -38,10 +38,10 @@ layout: default
                     <div class="person-image-container mb-2">
                       {% if person.link and person.link != "#" %}
                         <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-link">
-                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 160px; height: 160px; object-fit: cover;" %}
                         </a>
                       {% else %}
-                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 160px; height: 160px; object-fit: cover;" %}
                       {% endif %}
                     </div>
                   {% endif %}
@@ -77,10 +77,10 @@ layout: default
                     <div class="person-image-container mb-2">
                       {% if person.link and person.link != "#" %}
                         <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-link">
-                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 160px; height: 160px; object-fit: cover;" %}
                         </a>
                       {% else %}
-                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 160px; height: 160px; object-fit: cover;" %}
                       {% endif %}
                     </div>
                   {% endif %}
@@ -116,10 +116,10 @@ layout: default
                     <div class="person-image-container mb-2">
                       {% if person.link and person.link != "#" %}
                         <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-link">
-                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 160px; height: 160px; object-fit: cover;" %}
                         </a>
                       {% else %}
-                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 160px; height: 160px; object-fit: cover;" %}
                       {% endif %}
                     </div>
                   {% endif %}
@@ -155,10 +155,10 @@ layout: default
                     <div class="person-image-container mb-2">
                       {% if person.link and person.link != "#" %}
                         <a href="{{ person.link }}" target="_blank" rel="noopener noreferrer" class="person-link">
-                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                          {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 160px; height: 160px; object-fit: cover;" %}
                         </a>
                       {% else %}
-                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 120px; height: 120px; object-fit: cover;" %}
+                        {% include figure.liquid loading="eager" path=person_image_path class=person_image_class sizes=sizes alt=person.name style="width: 160px; height: 160px; object-fit: cover;" %}
                       {% endif %}
                     </div>
                   {% endif %}
@@ -211,13 +211,13 @@ layout: default
 }
 
 .person-name {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
 .person-info {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   margin-bottom: 0;
 }
 
