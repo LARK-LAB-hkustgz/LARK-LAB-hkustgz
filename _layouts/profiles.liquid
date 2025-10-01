@@ -10,10 +10,10 @@ layout: default
 
 <style>
 body .container {
-  max-width: 1137px !important;
+  max-width: 1200px !important;
 }
 .post {
-  max-width: 1137px !important;
+  max-width: 1200px !important;
   width: 100% !important;
 }
 .post article {
@@ -21,11 +21,11 @@ body .container {
   width: 100% !important;
 }
 .container, .container-fluid {
-  max-width: 1137px !important;
+  max-width: 1200px !important;
 }
 </style>
 
-<div class="post" style="max-width: 1137px; margin: 0 auto;">
+<div class="post" style="max-width: 1200px; margin: 0 auto;">
   <header class="post-header">
     <h1 class="post-title">
       {% if page.page_title %}
@@ -212,6 +212,30 @@ body .container {
   color: var(--global-text-color);
 }
 
+/* 确保跨section的垂直对齐 */
+.people-section .row {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.person-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.person-image-container {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
 .person-image-container img,
 .person-image-container figure,
 .person-link img,
@@ -219,6 +243,7 @@ body .container {
   width: 180px !important;
   height: 180px !important;
   object-fit: cover !important;
+  flex-shrink: 0 !important;
 }
 
 .person-card .img-fluid {
@@ -227,19 +252,8 @@ body .container {
   object-fit: cover !important;
 }
 
-.person-card {
-  padding: 1rem;
-  transition: transform 0.2s ease-in-out;
-}
-
 .person-card:hover {
   transform: translateY(-5px);
-}
-
-.person-image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .person-name {
