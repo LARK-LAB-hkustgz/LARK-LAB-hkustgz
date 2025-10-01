@@ -63,7 +63,7 @@ profiles:
       more_info: "MPhil, co-supervise with Prof. Jiayi Huang"
       link: "https://chenyuy001.github.io/"
     - name: "Baiyu Huang"
-      image: lark.jpg
+      image: baiyu.jpg
       more_info: "MPhil"
       link: "#"
       
