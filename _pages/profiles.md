@@ -35,7 +35,11 @@ profiles:
     - name: "Mengyi Deng"
       image: mengyi.jpg
       more_info: "PhD, co-supervise with Prof. Wei Wang"
-  
+    - name: "Yingping Wang"
+      image: yingping.jpg
+      more_info: "PhD, co-supervise with Prof. Jiayi Huang"
+      link: "#"
+
   # MPhils - 添加新的MPhil学生只需在下面添加新条目  
   mphils:
     - name: "Zilin Wang"
@@ -58,10 +62,6 @@ profiles:
       image: chenyu.jpg
       more_info: "MPhil, co-supervise with Prof. Jiayi Huang"
       link: "https://chenyuy001.github.io/"
-    - name: "Yingping Wang"
-      image: yingping.jpg
-      more_info: "MPhil, co-supervise with Prof. XX"
-      link: "#"
     - name: "Baiyu Huang"
       image: lark.jpg
       more_info: "MPhil"
