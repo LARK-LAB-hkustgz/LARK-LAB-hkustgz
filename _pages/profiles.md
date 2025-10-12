@@ -68,7 +68,7 @@ profiles:
       link: "https://yjywdzh.github.io/"
       
   
-  Interns/RAs/Visitors:
+  others:
     - name: "Langqi Liu"
       image: langqi.jpg
       more_info: "Master at Nanjing University"
