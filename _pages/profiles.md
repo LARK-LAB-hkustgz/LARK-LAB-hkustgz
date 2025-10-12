@@ -17,69 +17,69 @@ profiles:
 
   # PhDs - 添加新的PhD学生只需在下面添加新条目
   phds:
-    - name: "Xinyu Zhou" 
-      image: xinyu.jpg
-      more_info: "PhD"
-      link: "https://blackzxy.github.io/"  # 示例链接
     - name: "Zhiwei Li"
       image: zhiwei.jpg  # 将图片放在 assets/img/ 文件夹中
-      more_info: "PhD"
+      more_info: "Master from Fudan University (Prev. Intern at Meituan, Fall 2025 -)"
       link: "https://digbangbang.github.io/"  # 个人主页链接，如果没有可以设置为 "#" 或删除此行
-    - name: "Haochen Wang"
-      image: haochen.jpg
-      more_info: "PhD incoming"
+    - name: "Xinyu Zhou" 
+      image: xinyu.jpg
+      more_info: "Master from Swiss Federal Technology Institute of Lausanne (Prev. Intern at Shanghai AI Lab, Fall 2025 -)"
+      link: "https://blackzxy.github.io/"  # 示例链接
     - name: "Minrui Xu" 
       image: minrui.jpg
-      more_info: "PhD incoming"
+      more_info: "Bachelor from Hong Kong University of Science and Technology (Prev. Intern at MSRA, Spring 2026 -)"
       link: "https://rolandminrui.github.io/rolandminrui-homepage/"  # 示例链接
+    - name: "Haochen Wang"
+      image: haochen.jpg
+      more_info: "Bachelor from Xiamen University (Prev. Intern at DeepSeek AI; ByteDance Research; ETH Zurich, Spring 2026 -)"
     - name: "Mengyi Deng"
       image: mengyi.jpg
-      more_info: "PhD, co-supervise with Prof. Wei Wang"
+      more_info: "(Co-supervise with Prof. Wei Wang): Mphil from Hong Kong University of Science and Technology (Guangzhou) (Fall 2024 -)"
     - name: "Yingping Wang"
       image: yingping.jpg
-      more_info: "PhD, co-supervise with Prof. Jiayi Huang"
+      more_info: "(Co-supervise with Prof. Jiayi Huang): Master from Shenzhen University (Spring 2025 -)"
       link: "#"
 
   # MPhils - 添加新的MPhil学生只需在下面添加新条目  
   mphils:
     - name: "Zilin Wang"
       image: zilin.jpg
-      more_info: "MPhil"
+      more_info: "Bachelor from Harbin Institute of Technology (Shenzhen) (Fall, 2025 -)"
       link: "#"
     - name: "Chao Chen"
       image: chenchao.jpg
-      more_info: "MPhil"
+      more_info: "Bachelor from Shanghai Jiao Tong University (Fall, 2025 -)"
       link: "#"
-    - name: "Jiayu Yang"
-      image: jiayu.jpg
-      more_info: "MPhil, co-supervise with Prof. Yutao Yue"
-      link: "https://yjywdzh.github.io/"
-    - name: "Xiao Zhu"
-      image: zhuxiao.jpg
-      more_info: "MPhil, co-supervise with Prof. Yanlin Zhang"
-      link: "https://hexagonstar.github.io/"
-    - name: "Chenyu Yuan"
-      image: chenyu.jpg
-      more_info: "MPhil, co-supervise with Prof. Jiayi Huang"
-      link: "https://chenyuy001.github.io/"
     - name: "Baiyu Huang"
       image: baiyu.jpg
-      more_info: "MPhil"
+      more_info: "Bachelor from Peking University (Fall, 2025 -)"
       link: "#"
+    - name: "Chenyu Yuan"
+      image: chenyu.jpg
+      more_info: "(Co-supervise with Prof. Jiayi Huang): Bachelor from Harbin Institute of Technology (Fall, 2025 -)"
+      link: "https://chenyuy001.github.io/"
+    - name: "Xiao Zhu"
+      image: zhuxiao.jpg
+      more_info: "(Co-supervise with Prof. Yanlin Zhang): Bachelor from Beijing University of Posts and Telecommunications (Fall, 2024 -)"
+      link: "https://hexagonstar.github.io/"
+    - name: "Jiayu Yang"
+      image: jiayu.jpg
+      more_info: "(Co-supervise with Prof. Yutao Yue): Bachelor from Chongqing University (Fall, 2024 -)"
+      link: "https://yjywdzh.github.io/"
       
   
-  # Interns/RAs/Visitors - 添加新成员只需在下面添加新条目
-  # others:
-  #   - name: "Research Assistant 1"
-  #     image: prof_pic.jpg
-  #     more_info: "Research Assistant"
-  #   - name: "Intern 1"
-  #     image: prof_pic.jpg
-  #     more_info: "Research Intern"
-  #     link: "https://example.com/intern1"
-  #   - name: "Visitor 1"
-  #     image: prof_pic.jpg
-  #     more_info: "Visiting Scholar"
+  Interns/RAs/Visitors:
+    - name: "Langqi Liu"
+      image: langqi.jpg
+      more_info: "Master at Nanjing University"
+      link: "https://liurunky.github.io/"
+    - name: "Boyu Zhu"
+      image: boyu.jpg
+      more_info: "Master at University College London"
+    - name: "Zhongzhi Li"
+      image: zhongzhi.jpg
+      more_info: "PhD at Chinese Academy of Sciences"
+      link: "https://zzli2022.github.io/"
 
 # 添加人员说明：
 # 1. 在相应类别下添加新条目
